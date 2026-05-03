@@ -38,10 +38,16 @@ uv sync
 
 ## 3. Running the Project
 
-### Start the FastAPI Server
-To run your server with auto-reload enabled:
+### Include these lines in .toml for my exact project structure
 ```bash
-uv run fastapi dev main.py
+[tool.fastapi]
+entrypoint = "src:app"
+```
+
+### Start the FastAPI Server
+To run your server:
+```bash
+uv run fastapi dev 
 ```
 
 ### Running Scripts
