@@ -1,3 +1,4 @@
 {
-    "notebook.output.minimalErrorRendering": true
+    "notebook.output.minimalErrorRendering": true,
+    "python.analysis.diagnosticsSource": "Pylance"
 }
